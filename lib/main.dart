@@ -1,18 +1,18 @@
 import 'package:flutter/material.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(MultisigCrypto());
 
-class MyApp extends StatelessWidget {
+class MultisigCrypto extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Welcome to Flutter',
+      title: 'Multisig Crypto',
       home: Scaffold(
         appBar: AppBar(
           title: Text('Multisig Crypto'),
         ),
         body: Center(
-          child: Text('Gy'),
+          child: Text('Please Scan Qr Code'),
         ),
       ),
     );

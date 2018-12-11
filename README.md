@@ -1,6 +1,6 @@
 # myapp
 
-A new Flutter project.
+The flutter half of the Multisig Crypto App
 
 ## Getting Started
 
