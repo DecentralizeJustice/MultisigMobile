@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'intro/intro_page.dart';
 
 void main() => runApp(MultisigCrypto());
 
@@ -7,14 +8,7 @@ class MultisigCrypto extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Multisig Crypto',
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Multisig Crypto'),
-        ),
-        body: Center(
-          child: Text('Please Scan Qr Code'),
-        ),
-      ),
+      home: new HomePage()
     );
   }
 }
