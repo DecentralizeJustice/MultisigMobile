@@ -8,7 +8,7 @@ class MultisigCrypto extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Multisig Crypto',
-      home: new HomePage()
+      home: new ScanScreen()
     );
   }
 }
