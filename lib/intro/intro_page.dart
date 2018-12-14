@@ -21,7 +21,7 @@ class _ScanState extends State<ScanScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: new AppBar(
-          title: new Text('QR Code Scanner'),
+          title: new Text('Multisig Crypto'),
         ),
         body: new Center(
           child: new Column(
@@ -29,13 +29,13 @@ class _ScanState extends State<ScanScreen> {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
               Padding(
-                padding: EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+                padding: EdgeInsets.all(20),
                 child: RaisedButton(
                     color: Colors.blue,
                     textColor: Colors.white,
                     splashColor: Colors.blueGrey,
                     onPressed: scan,
-                    child: const Text('START CAMERA SCAN')
+                    child: const Text('Scan Qr Code')
                 ),
               )
               ,
